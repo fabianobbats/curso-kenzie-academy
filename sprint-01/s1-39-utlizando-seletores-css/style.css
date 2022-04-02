@@ -1,0 +1,26 @@
+.title-main{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.color-blue{
+    color: blue;
+}
+
+.background-blue{
+    background-color: blue;
+    color: white;
+}
+
+.background-black{
+    background-color: black;
+    color: white;
+}
+
+.text-center{
+    text-align: center;
+}
+
+li{
+    text-decoration: underline;
+}
