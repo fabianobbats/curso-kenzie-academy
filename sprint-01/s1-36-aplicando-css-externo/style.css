@@ -1,0 +1,83 @@
+/* Sua <main> deve conter:
+uma largura total de 400px;
+Uma borda com 1px de expessura, cor: #1b1a28 e deve ser sólida;
+O fundo deve ser da cor: #5380dc;
+
+Sua <figure> deve conter:
+Um alinhamento de texto ao centro;
+
+Sua <img> deve conter:
+O seguinte link na propriedade src: https://kenzie.com.br/images/st.svg
+Uma largura de 50% do tamanho original;
+
+Sua <figcaption> deve:
+Ficar 'escondida' ou não deve ser mostrada, porém ela DEVE estar presente em seu HTML;
+
+Sua <section> deve conter:
+Uma largura total de 400px e deve estar no centro da <main>;
+Um fundo de cor branca;
+Os textos devem estar alinhados ao centro;
+As bordas devem estar arredondadas em 50px;
+
+Seu <h1> de conter:
+Um tamanho de: 25px;
+Ser da cor: #205ec2;
+
+Seu <h2> de conter:
+Um tamanho de: 18px;
+Não deve estar em negrito, procure na documentação pela propriedade: font-weight;
+
+Seu <a> deve:
+Estar dentro de um <p>;
+Não deve estar sublinhada;
+A palavra deve ser convertida para maiúsculas via CSS;
+Ser da cor: #205ec2;
+Quando o usuário passar o mouse por cima os seguintes efeitos devem acontecer:
+A cor deve mudar para: #1b1a28;
+O cursor do mouse deve mostrar que aquele elemento é clicável; */
+
+
+main{
+    width: 400px;
+    border: 1px #1b1a28 solid;
+    background-color: #5380dc;
+}
+
+figure{
+    text-align: center;
+}
+
+figure figcaption{
+    visibility: hidden;
+}
+
+figure img{
+    width: 50%;
+}
+
+section{
+    width: 400px;
+    background-color: white;
+    text-align: center;
+    border-radius: 50px;    
+}
+
+h1{
+    font-size: 25px;
+    color: #205ec2;
+}
+
+h2{
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+p a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #205ec2;    
+}
+p a:hover{
+    color: #1b1a28;
+    cursor: pointer;    
+}
