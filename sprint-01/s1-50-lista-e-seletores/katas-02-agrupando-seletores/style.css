@@ -1,0 +1,20 @@
+/* Mude a cor de todos os elementos p e h1 para "vermelho". Agrupe os seletores para minimizar o código.
+Altere a cor de todos os elementos com a classe "colortext", para "blue".
+Mude a cor do elemento com id = "para1", para "verde".
+Defina tamanho 20px para todos os elemento p */
+
+p, h1{
+    color: red;
+}
+
+.colortext {
+    color: blue;
+}
+  
+#para1{
+    color: green;
+}
+  
+p{
+    font-size: 20px;
+}

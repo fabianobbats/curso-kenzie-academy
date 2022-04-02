@@ -1,0 +1,39 @@
+/* Adicione uma margem de 5px.
+Preenchimento de 10px na parte superior, 20px na direita, 10px na parte inferior e 20px na a esquerda.(padding)
+Adicione um id no ultimo elemento de cada lista e crie as seguintes propriedades para este elemento:
+Tamanho da fonte de 20px
+fonte em negrito
+Cor verde
+Altere a propriedade color do h1 para que fique azul
+Defina o estilo da lista não ordenada como "square"
+Defina o estilo da lista para listas ordenadas como "upper-roman"". */
+
+ul{
+    list-style-type: square;
+}
+  
+ol{
+    list-style-type: upper-roman;
+}
+  
+li{
+    margin: 5px;
+    padding: 10px 20px;
+}
+  
+#example{
+    font-size: 20px;
+    font-weight: 700;
+    color: red;
+}
+  
+#last{
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+}
+
+h1{
+    color: blue;
+}
+
