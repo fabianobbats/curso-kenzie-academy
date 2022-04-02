@@ -1,0 +1,28 @@
+body, section, div{
+    box-sizing: border-box;
+}
+div.forma{
+    width:150px;
+    height:150px;
+    background-color: blue;
+}
+
+div.katas1 {
+    border-radius: 50%;
+}
+
+div.katas2 {
+   border-radius: 25% 25% 0 0;
+}
+
+div.katas3 {
+    border-radius: 0 0 50% 50%;
+}
+
+div.katas4 {
+    border-radius: 12.5% 25% 12.5% 100%;
+}
+
+div.katas5 {
+    border-radius: 75% 0 75% 0;
+}
