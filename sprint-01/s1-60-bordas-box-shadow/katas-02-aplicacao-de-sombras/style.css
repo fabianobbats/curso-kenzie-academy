@@ -1,0 +1,6 @@
+div.shadow{
+    width: 300px;
+    background-color: #b2d7e6;
+    box-shadow: 10px 10px 5px 0px gray;
+    padding: 10px;
+}

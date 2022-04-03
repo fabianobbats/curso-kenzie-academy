@@ -1,0 +1,9 @@
+div.dashed{
+    width: 250px;
+    padding: 25px;
+    background-color: #398bde;
+    outline: 2px dashed white;
+    outline-offset: -6px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 1px lightgray;
+}
