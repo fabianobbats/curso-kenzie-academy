@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F5F5F5;
+    font-family: Inter;
+    font-size: 16px;
+    color: black;
+}
+
+header{
+    height: 80px;
+    width: 100%;
+    box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.container{
+    max-width: 1556px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.menu-flex {
+    display: flex;
+    align-items: center;
+}
+
+.menu-column {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: flex-start;
+    gap: 46px;
+}
+
+.menu-column.logo{
+   font-size: 24px;
+   font-weight: 700; 
+}
+
+.menu-column.menu-second-column {
+    justify-content: flex-end;
+}
+
+.menu-nav ul {
+    display: flex;
+    list-style: none;
+    gap: 46px; /* Vamos utilizar essa propriedade do flex para colocar um espaçamento entre os elementos*/
+}
+
+.menu-nav ul li a {
+    text-decoration: none;
+    color: #585e65;
+}
+
+.menu-link-button {
+    text-decoration: none;
+    height: 48px;
+    background-color: #4c6ef5;
+    color: #fff;
+    padding: 0 32px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+}
+
+
+main{
+    max-width: 1556px;
+    margin: 34px auto;
+}
+
+.productsList{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 34px 20px;
+}
+
+.productItem{
+    background-color: white;
+    height: 500px;
+    width: 374px;
+    border-radius: 8px;
+    
+}
+
+.product{
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.product figure{
+    display: flex;
+    flex-direction: column;
+}
+
+.productImage{
+    align-self: center;
+    margin-bottom: 46px;
+}
+
+.productDescription{
+    font-weight: 600;
+    text-align: justify;
+    margin-bottom: 20px;
+    margin-left: 21px;
+    margin-right: 21px;
+
+}
+
+.productValue{
+    font-weight: 600;
+    margin-bottom: 26px;
+    margin-left: 21px;
+    
+}
+
+.productAddChart{
+    background: #4C6EF5;
+    border: 1.5px solid #4C6EF5;
+    border-radius: 8px;
+    color: white;
+    font-weight: 400;
+    width: 335px;
+    height: 48px;
+    margin-bottom: 26px;
+    margin-left: 21px;
+}
