@@ -32,32 +32,37 @@ main{
 } 
 
 .users{
+    width: 700px;
     display: flex;
-    justify-items: center;
-    gap: 26px;
+    justify-content: space-between;
     margin-top: 61px;
 }
 
-.user, .newUser{
-    width: 160px;
-    height: 160px;
-    background-color: #1E1E20;
-    
+.user{
+    width: 160px; 
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 
 .overflowUserImage{
     overflow: hidden;
+    background-color: #1E1E20;
+    width: 160px;
+    height: 160px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .userImage:hover{
     transform: scale(1.25);
 }
 
-.userName, .newUserName{
+.userName{
     font-weight: 600;
     font-size: 14px;
     color: #9C9C9C;
-    margin-top: 16px;
     text-align: center;
 }
 
@@ -73,40 +78,21 @@ main{
     margin-top: 102px;
 
 }
+
 .btnGerenciar:hover{
     border: 1.5px solid #121214;
     color: #121214;
     background-color: white;
 }
 
-.flexNewUserIcon{
-    width: 160px;
-    height: 160px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}  
-
 .newUserIcon{
     color: #6F6F70;
     font-weight: bold;
     font-size: 53.89px;
 } 
+
 .newUserIcon:hover{
     color: white;
     font-weight: bold;
     font-size: 53.89px;
 }
-
-/* 
-.newUser img{
-    position: absolute;
-    background-color: aqua;
-}
-.newUser .minus{
-    position: absolute;
-}
-.newUser .upright{
-    transform: rotate(90deg);
-    position: absolute;
-} */
