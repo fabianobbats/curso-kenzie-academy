@@ -42,6 +42,10 @@ main{
     width: 160px;
     height: 160px;
     background-color: #1E1E20;
+    
+}
+
+.overflowUserImage{
     overflow: hidden;
 }
 
@@ -49,7 +53,7 @@ main{
     transform: scale(1.25);
 }
 
-.userName{
+.userName, .newUserName{
     font-weight: 600;
     font-size: 14px;
     color: #9C9C9C;
@@ -75,12 +79,14 @@ main{
     background-color: white;
 }
 
-
-.newUser{
+.flexNewUserIcon{
+    width: 160px;
+    height: 160px;
     display: flex;
     justify-content: center;
     align-items: center;
 }  
+
 .newUserIcon{
     color: #6F6F70;
     font-weight: bold;
