@@ -1,4 +1,8 @@
-# Exercício 1 - Somar valores
+# Atividades - Funções: Exercitando o uso de parâmetro
+
+Nessa atividade vamos treinar nossos conhecimentos em funções utilizando os Parâmetros
+
+## Exercício 1 - Somar valores
 
 Crie uma função que receba como parâmetro dois valores, sendo eles:
 * Valor1
@@ -14,7 +18,7 @@ Resultado esperado será: 891
 
 > 891
 
-# Exercício 2 - Verificação de tipo
+## Exercício 2 - Verificação de tipo
 
 Crie uma função que recebe um valor e retorna o seu valor e seu tipo
 
@@ -26,7 +30,7 @@ Para avaliar o valor passado, você pode usar o seguinte método:
 
 > typeof()
 
-# Exercício 3 - Somando notas
+## Exercício 3 - Somando notas
 
 Crie uma função que retorna a soma de todos os bimestres do aluno
 
